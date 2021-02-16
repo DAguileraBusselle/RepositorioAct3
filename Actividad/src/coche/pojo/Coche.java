@@ -1,12 +1,18 @@
 package coche.pojo;
 
+import motor.pojo.Motor;
+
 public class Coche {
 
 	private String id;
 	private String matricula;	
 	private String modelo;
 	private String marca;
+<<<<<<< HEAD
 	private int km;
+=======
+	private Motor motor;
+>>>>>>> motor
 	
 	public Coche(String id, String matricula, String modelo, String marca, int km) {
 		super();
@@ -56,7 +62,14 @@ public class Coche {
 	public void setMarca(String marca) {
 		this.marca = marca;
 	}
-	
+
+	public Motor getMotor() {
+		return motor;
+	}
+
+	public void setMotor(Motor motor) {
+		this.motor = motor;
+	}
 	
 	
 	
