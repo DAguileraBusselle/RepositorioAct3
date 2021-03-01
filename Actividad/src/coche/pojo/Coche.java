@@ -67,6 +67,12 @@ public class Coche {
 	public void setMotor(Motor motor) {
 		this.motor = motor;
 	}
+
+	@Override
+	public String toString() {
+		return "Coche [id=" + id + ", matricula=" + matricula + ", modelo=" + modelo + ", marca=" + marca + ", km=" + km
+				+ ", motor=" + motor + "]";
+	}
 	
 	
 	
