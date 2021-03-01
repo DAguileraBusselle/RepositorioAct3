@@ -5,12 +5,20 @@ public class Motor {
 	private String id;
 	private String tipoMotor;
 	private String potencia;
+	private int cantidadHermosura;
 	
-	public Motor(String id, String tipoMotor, String potencia) {
+	public Motor(String id, String tipoMotor, String potencia, int cantidadHermosura) {
 		super();
 		this.id = id;
 		this.tipoMotor = tipoMotor;
 		this.potencia = potencia;
+		this.cantidadHermosura = cantidadHermosura;
+	}
+	public int getCantidadHermosura() {
+		return cantidadHermosura;
+	}
+	public void setCantidadHermosura(int cantidadHermosura) {
+		this.cantidadHermosura = cantidadHermosura;
 	}
 	public String getId() {
 		return id;
