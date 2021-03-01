@@ -8,11 +8,8 @@ public class Coche {
 	private String matricula;	
 	private String modelo;
 	private String marca;
-<<<<<<< HEAD
 	private int km;
-=======
 	private Motor motor;
->>>>>>> motor
 	
 	public Coche(String id, String matricula, String modelo, String marca, int km) {
 		super();
